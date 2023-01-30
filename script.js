@@ -86,7 +86,7 @@ window.addEventListener('DOMContentLoaded', () => {
         modal.classList.add('hide');
         modal.classList.remove('show');
         document.body.style.overflow = '';
-    
+    };
 
     const modalTriger = document.querySelectorAll('[data-modal]'),
           modal = document.querySelector('.modal'),
@@ -115,7 +115,6 @@ window.addEventListener('DOMContentLoaded', () => {
                 allModals();
             };
         });
-    };
         
         
     const slides = document.querySelectorAll('.offer__slide'),
